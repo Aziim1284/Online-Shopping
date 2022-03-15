@@ -1,0 +1,546 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Titan+One&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.main{
+    padding: 20px;
+  
+}
+.sec1{
+    background-image: url(../azzi/1.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 900px;
+    background-size: 100%;
+    position: relative;
+}
+.sec1 > .sp>img{
+    position: absolute;
+   height: 130px;
+   width: 150px;
+   
+}
+.sec1>.sp>input{
+    position: absolute;
+    left: 190px;
+    top: 50px;
+    height: 40px;
+    width: 500px;
+    border-radius: 50px;
+    padding: 20px;
+    font-size: 30px;
+}
+.sec1>p{
+    position: absolute;
+    left: 660px;
+    top: 65px;
+    
+    
+}
+
+.sec1>span>ul{
+    float: right;
+    list-style-type:none;
+    padding-top: 30px;
+}  
+.sec1>span>ul>li a{
+    text-decoration: none;
+    color: white;
+     
+ } 
+ /* .sec1>span>ul>li>ul>li{
+    display: none;
+     color: white;
+ }
+ .sec1>span>ul>li a:hover{
+     display: contents;
+     scroll-behavior: smooth;
+ } */
+ .sec1>span>ul>li{
+    display: inline-block;
+    padding: 30px;
+   
+}
+
+.sec1>span>ul>li:hover{
+    background-color: rgb(26, 24, 24);
+    border-bottom-style: double;
+    border-bottom-color: crimson;
+   
+}
+.sun{
+    position: absolute;
+    right: 0px;
+    bottom: 10px;
+    border-radius: 100%;
+    height: 300px;
+    width: 300px;
+    background:linear-gradient( rgb(19, 17, 17), crimson,rgb(68, 64, 64))
+
+}
+.sun>blockquote>p{
+    position: absolute;
+    bottom: 90px;
+    right: 70px;
+    border:none;
+    height: 140px;
+    width: 160px;
+    font-size: 20px;
+   
+   
+}
+.bigt{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+height: 100px;
+
+}
+.bigt>P{
+    color: white;
+    font-size: 80px;
+    font-family:'Titan One', cursive;
+    word-spacing: 30px;
+   
+}
+.normal{
+    position: absolute;
+    top: 470px;
+    right: 100px;
+}
+.normal>p{
+    color: white;
+    font-family:'Titan One', cursive;
+    font-size: 35px;
+}
+.inputt{
+position: absolute;
+right: 600px;
+top: 550px;
+}
+.inputt>button{
+    background-color: white;
+    height: 60px;
+    width: 220px;
+    color: crimson;
+    font-size: 25px;
+    
+}
+.inputt>button:hover{
+    background: linear-gradient(rgb(114, 19, 19),rgb(22, 7, 7),white);
+}
+.inputt>button:active{
+ background-color: white;
+}
+
+            /* ******  SECTION NUMBER 2  ****** */
+.sec2{
+    background-image:url(../azzi/2.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+   
+    height: 1080px;
+   position: relative;
+   padding: 30px;
+   
+}
+.div1, .div2, .div3, .div4, .div5, .div6{
+    height: 190px;
+    width: 600px;
+    border: none;
+    box-shadow: 6px 6px 14px black, 
+    -6px -6px 14px black;
+}
+.div1, .div2, .div3, .div4, .div5, .div6>h3{
+    color: whitesmoke;
+    
+}
+
+       /*div2*/
+.div2{
+    position: absolute;
+    right: 10px;
+    top: 90px;
+    background:repeating-linear-gradient(white,rgb(29, 27, 27),rgb(14, 13, 13),rgb(37, 35, 35),gray,black);
+}
+.div2:hover{
+ 
+    box-shadow: 0px 5px 5px rgb(12, 12, 12), -0px -0px 5px rgb(17, 17, 17);
+}
+
+.div2>span>button{
+    position: absolute;
+   top: 0px;
+   left: 470px;
+   height: 190px;
+   width: 130px;
+}
+.div2>span>p{
+    position: absolute;
+    top: 40px;
+    left: 510px;
+    color: blue;
+    font-size: 100px;
+
+}
+.div2:hover {
+    background-image: url(../azzi/logo.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    
+       box-shadow: 0px 5px 5px rgb(12, 12, 12), -0px -0px 5px rgb(17, 17, 17);
+   
+   }
+   .div2>span>button:hover{
+    background: linear-gradient(black,white,blue);
+}
+           /*div1*/
+ .div1{
+    background:repeating-linear-gradient(white,rgb(29, 27, 27),rgb(14, 13, 13),rgb(37, 35, 35),gray,black);
+   
+ }  
+ .div1>h3{
+     position: absolute;
+     top: 60px;
+ }        
+.div1>span>button{
+    position: absolute;
+   top: 30px;
+   left: 500px;
+   height: 190px;
+   width: 130px;
+}
+.div1>span>p{
+    position: absolute;
+    top: 80px;
+    left: 540px;
+    color: blue;
+    font-size: 100px;
+
+}
+.div1>span>button:hover{
+    background: linear-gradient(black,white,blue);
+}
+.div1:hover {
+    background-image: url(../azzi/logo.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    
+       box-shadow: 0px 5px 5px rgb(12, 12, 12), -0px -0px 5px rgb(17, 17, 17);
+   
+   }
+
+              /*div4*/
+.div4{
+    position: absolute;
+    right: 10px;
+    top: 400px;
+    background:repeating-linear-gradient(white,rgb(29, 27, 27),rgb(14, 13, 13),rgb(37, 35, 35),gray,black);
+}
+.div4:hover{
+ 
+    box-shadow: 0px 5px 5px rgb(12, 12, 12), -0px -0px 5px rgb(17, 17, 17);
+}
+.div4>span>button{
+    position: absolute;
+   top: 0px;
+   left: 470px;
+   height: 190px;
+   width: 130px;
+}
+.div4>span>p{
+    position: absolute;
+    top: 40px;
+    left: 510px;
+    color: blue;
+    font-size: 100px;
+
+}
+.div4:hover {
+    background-image: url(../azzi/logo.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    
+       box-shadow: 0px 5px 5px rgb(12, 12, 12), -0px -0px 5px rgb(17, 17, 17);
+   
+   }
+   .div4>span>button:hover{
+    background: linear-gradient(black,white,blue);
+}
+
+            /*div6*/
+.div6{
+    position: absolute;
+    right: 0px;
+    bottom: 200px;
+    
+        background:repeating-linear-gradient(white,rgb(29, 27, 27),rgb(14, 13, 13),rgb(37, 35, 35),gray,black);
+      
+    
+}
+.div6:hover{
+ 
+    box-shadow: 0px 5px 5px rgb(12, 12, 12), -0px -0px 5px rgb(17, 17, 17);
+}
+
+
+
+.div6>span>button{
+    position: absolute;
+   top: 0px;
+   left: 470px;
+   height: 190px;
+   width: 130px;
+}
+.div6>span>p{
+    position: absolute;
+    top: 40px;
+    left: 510px;
+    color: blue;
+    font-size: 100px;
+
+}
+.div6:hover {
+    background-image: url(../azzi/logo.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    
+       box-shadow: 0px 5px 5px rgb(12, 12, 12), -0px -0px 5px rgb(17, 17, 17);
+   
+   }
+   .div6>span>button:hover{
+    background: linear-gradient(black,white,blue);
+}
+
+
+          /*div3*/
+.div3{
+    position: absolute;
+    bottom: 140px;
+}
+.div3>span>button{
+    position: absolute;
+   top: 0px;
+   left: 470px;
+   height: 190px;
+   width: 130px;
+}
+.div3>span>p{
+    position: absolute;
+    top: 40px;
+    left: 510px;
+    color: blue;
+    font-size: 100px;
+
+}
+.div3:hover {
+    background-image: url(../azzi/logo.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    
+       box-shadow: 0px 5px 5px rgb(12, 12, 12), -0px -0px 5px rgb(17, 17, 17);
+   
+   }
+   .div3>span>button:hover{
+    background: linear-gradient(black,white,blue);
+}
+.div3{
+    background:repeating-linear-gradient(white,rgb(29, 27, 27),rgb(14, 13, 13),rgb(37, 35, 35),gray,black);
+  
+}  
+.div3>h3{
+    position: absolute;
+    top: 60px;
+} 
+
+           /*div5*/
+.div5{
+    position: absolute;
+    bottom: 480px;
+}
+.div5:hover{
+ 
+    box-shadow: 0px 5px 5px rgb(12, 12, 12), -0px -0px 5px rgb(17, 17, 17);
+}
+.div5>span>button{
+    position: absolute;
+   top: 0px;
+   left: 470px;
+   height: 190px;
+   width: 130px;
+}
+.div5>span>button:hover{
+    background: linear-gradient(black,white,blue);
+}
+.div5>span>p{
+    position: absolute;
+    top: 40px;
+    left: 510px;
+    color: blue;
+    font-size: 100px;
+
+}
+.div5:hover {
+    background-image: url(../azzi/logo.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    
+       box-shadow: 0px 5px 5px rgb(12, 12, 12), -0px -0px 5px rgb(17, 17, 17);
+   
+   }
+   .div5{
+    background:repeating-linear-gradient(white,rgb(29, 27, 27),rgb(14, 13, 13),rgb(37, 35, 35),gray,black)
+  
+}  
+.div5>h3{
+    position: absolute;
+    top: 60px;
+} 
+
+          /* *********  SECTION NUMBER 3  ******* */
+
+.sec3{
+    background-image: url(../azzi/4.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 900px;
+    position: relative;
+   
+    
+}  
+
+         /******** DIV 11 *********/
+ 
+.div11>center{
+    font-size: 70px;
+   color:rgb(196, 184, 162);
+   font-family:'Titan One', cursive;
+   text-shadow:2px 2px 12px rgb(168, 154, 129);
+}  
+.div11>p{
+    position: absolute;
+    left: 250px;
+    font-style: oblique;
+    font-weight: 700;
+    font-size: 30px ;
+    color: rgb(196, 184, 162);
+}   
+.div12{
+    padding: 40px;
+    position: absolute;
+    right: 140px;
+    top: 300px;
+    height: 500px;
+    width: 400px;
+    border:none;
+    border-radius: 20px;
+    box-shadow: 5px 5px 13px rgba(128, 128, 128,0.3),
+    -5px -5px 13px rgba(68, 65, 65, 0.3);
+  
+} 
+.div12>p{
+    position: absolute;
+    top: -20px;
+    left: 220px;
+    font-size: 50px;
+    color: rgb(119, 116, 116);
+    font-weight: 800;
+}
+
+.div12>center{
+   color: white;
+    font-size: 20px;
+}   
+#user, #pass{
+   
+    height: 50px;
+    border-radius: 50px;
+    width: 80%;
+    border: none;
+    height: 15px;
+}
+#pass{
+    position: absolute;
+    top: 190px;
+    left: 28px;
+}
+#user{
+    position: absolute;
+    top: 120px;
+    left: 28px;
+}
+ .user-input, .user-pass{
+     padding: 20px;
+     background-color: rgb(196, 184, 162);
+     margin-bottom: 30px;
+     border-radius: 25px;
+     box-shadow: inset 8px 8px 8px rgb(245, 220, 174), inset  -8px -8px 8px rgb(243, 226, 196);
+     cursor: text;
+ }
+ .div12>button{
+     position: absolute;
+     top: 300px;
+     left: 100px;
+     border-radius: 50px;
+     font-size: 30px;
+     height: 60px;
+     width: 300px;
+     cursor: pointer;
+     background:linear-gradient(rgb(245, 220, 174),white,rgb(245, 220, 174));
+    
+ }
+ .div12>h3{
+     position: absolute;
+     bottom: 160px;
+     left: 180px;
+     color: white;
+     font-weight: bolder;
+ }
+ .div12>h3>a{
+     text-decoration: none;
+     color:rgb(245, 220, 174) ;
+ }
+ .btn2{
+    position: absolute;
+    bottom: 70px;
+    /* cursor: pointer; */
+    left: 13px;
+    height:60px ;
+    width: 95%;
+    font-size: 30px;
+    background-color: rgb(46, 43, 43);
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+/**DIV 13*/
+.div13>span>p{
+    position: relative;
+    top: 300px;
+    left: 100px;
+    font-family: 'fantasy', cursive;
+    font-size: 60px;
+    color:rgb(196, 184, 162);
+    
+    width: 700px;
+}
+.trail{
+    position: absolute;
+    bottom: 100px;
+    left: 300px;
+    height: 50px;
+    width: 400px;
+    font-size: 40px;
+    color: white;
+    background-color: rgb(196, 184, 162);
+    cursor: pointer;
+}
+.shh{
+    position: absolute;
+    left: 480px;
+    top: 600px;
+    font-size: 70px;
+    color: rgb(196, 184, 162);
+    cursor: pointer;
+}

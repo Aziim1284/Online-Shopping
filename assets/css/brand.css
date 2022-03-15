@@ -1,0 +1,157 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+#sec1{
+   
+    background: radial-gradient(rgb(102, 99, 99),rgb(56, 53, 53));
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+}
+#sec1 h1{
+position:absolute;
+bottom: 0px;
+left: 500px;
+font-size: 50px;
+color: rgb(229, 255, 0);
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#sec1 h2{
+    position: absolute;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(230, 23, 85);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#sec2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 420px;
+    margin-top: 60px;
+}
+#sec2:hover{
+    box-shadow: 10px 10px 20px red,
+    -10px -10px 20px red;
+}
+#sec2>aside{
+    height: 400px;
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+aside>img{
+    width: 197px;
+    height: 400px;
+   
+}
+#div1{
+    height: 400px;
+    width: 1200px;
+    margin: 10px 10px ;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+}
+#div1>p{
+    position: absolute;
+    left: 60px;
+    top: 190px;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#div1>h1{
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    font-size: 70px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#div1>button{
+    position: absolute;
+    bottom: 80px;
+    left: 500px;
+    height: 50px;
+    width: 120px;
+    color: rgb(231, 10, 10);
+    background-color:yellow;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+#div1>button:hover{
+    box-shadow: 10px 10px 20px red,
+    -10px -10px 20px red;
+}
+#div2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 550px;
+}
+#div2>span{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#div2 >span>img{
+    height: 150px;
+    width: 150px;
+  
+}
+#div2 >span>img:hover{
+box-shadow: 6px 6px 13px rgb(189, 185, 185),
+-6px -6px 13px rgb(189, 185, 185)
+;}
+#sec3{
+    height: 400px;
+    margin-top: 30px;
+}
+footer{
+    height: 150px;
+    margin-top: 20px;
+    background: radial-gradient(black,grey);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#logo>img{
+    height: 100px;
+    width: 250px;
+}
+#logo{
+    width: 300px;
+    height:150px; 
+    cursor: pointer;
+}
+#logo>p{
+    text-align: center;
+    color: whitesmoke;
+   
+}
+#logo>h1{
+    text-align: center;
+    color: yellow;
+}
+#design{
+  width: 370px;
+  color: whitesmoke;
+  padding-top: 20px;
+}
+#copyright{
+    width: 440px;
+    color: whitesmoke;
+    padding-top: 20px;
+}

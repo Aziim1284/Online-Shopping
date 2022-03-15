@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Merriweather:wght@300&family=Neonderthaw&family=Rubik+Beastly&family=Supermercado+One&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+       font-family: 'Lobster', cursive,'Merriweather', serif,'Neonderthaw', cursive,'Rubik Beastly', cursive,'Supermercado One', cursive;
+}
+.div1{
+    height: 600px;
+    background: radial-gradient(white,red);
+}
+header>nav>ul{
+    float: right;
+    display: flex;
+   column-gap: 30px;
+    padding-top: 50px;
+    padding-right: 80px;
+
+}
+header>nav>ul>li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+header>img{
+    height: 80px;
+    width: 70px;
+    background: radial-gradient(red,red);
+    border: none;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.div2{
+    position: relative;
+    left: 800px;
+    bottom: 150px;
+    border:none;
+    width: 430px;
+    height: 400px;
+}
+.div2 h2{
+    text-align: center;
+    font-size: 60px;
+}
+.div2 p{
+    text-align: center;
+    
+}.div2 a{
+      border:none;
+      position: absolute;
+      left: 160px;
+      color: rgb(22, 21, 21);
+      height: 40px;
+      width: 130px;
+      padding: 10px;
+      background: radial-gradient(rgb(245, 243, 243),red);
+}
+.div2 >img{
+    color: red;
+    background: radial-gradient(rgb(245, 243, 243),rgba(243, 16, 16, 0.2));
+    
+     /* opacity: 0.4; */
+     position: absolute;
+     border-top-left-radius: 40px;
+     border: none;
+     bottom: 30px;
+     height: 400px;
+     width: 200px;
+     right: -200px;
+}
+
+/* LOGIN FORM */
+.login-div{
+    position: relative;
+    /* border: 2px solid wheat; */
+    top: 100px;
+    left: 290px;
+   width: 430px;
+   
+}
+.login-div>h1{
+    position: absolute;
+    left: 130px;
+    top: -70px;
+}
+.fields{
+    width: 400px;
+    padding-inline-end: 75px 5px 5px 5px;
+}
+.fields input{
+    border: none;
+    outline: none;
+    background:none ;
+    font-size: 18px;
+    color: rgb(20, 20, 20);
+    padding: 20px 20px 20px 15px ;
+}
+.username, .password{
+    margin-bottom: 30px;
+    border-radius: 25px;
+    box-shadow: inset 8px 8px 8px #e68787, inset  -8px -8px 8px #fff;
+}
+.signin-button{
+    outline: none;
+    border: none;
+    cursor: pointer;
+    width: 400px;
+    height: 60px;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "lato", sans-serif;
+    color: #fff;
+    background-color: #02c8db;
+    box-shadow:  3px 3px 8px #b1b1b1, -3px -3px 8px #fff;
+}
+
+.sec1{
+    height: 500px;
+    
+    margin-top: 40px;
+   
+}
+.div4{
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    justify-content: space-around;
+    padding-top: 30px;
+ 
+}
+.span1{
+    height:300px ;
+    padding-top: 40px;
+    position: relative;
+
+}
+h2>i{
+    color: red;
+}
+.span1  p{
+    background-color: rgb(241, 56, 93);
+    color: rgb(255, 255, 255);
+    column-gap: 20px;
+    cursor: pointer;
+  
+}
+.span1 img:hover{
+    transform: scale(1, 0.8);
+}
+
+.div3 h1{
+   position: absolute;
+   font-size: 30px;
+   left: 730px;
+   padding-bottom: 20px;
+}
+.div5{
+    background: radial-gradient(rgb(78, 77, 77),rgba(32, 29, 29, 0.2));
+    height: 200px;
+    position: relative;
+    bottom: -200px;
+}

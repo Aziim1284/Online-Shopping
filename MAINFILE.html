@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page </title>
+    
+    <link rel="stylesheet" href="assets/css/index11.css">
+    <link rel="stylesheet" href="assets/fontawesome-free-5.15.4-web/css/all.css">
+    
+    <style>
+        footer{
+    height: 150px;
+    margin-top: 20px;
+    background: radial-gradient(black,grey);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#logo>img{
+    height: 100px;
+    width: 250px;
+}
+#logo{
+    width: 300px;
+    height:150px; 
+    cursor: pointer;
+}
+#logo>p{
+    text-align: center;
+    color: whitesmoke;
+   
+}
+#logo>h1{
+    text-align: center;
+    color: yellow;
+}
+#design{
+  width: 370px;
+  color: whitesmoke;
+  padding-top: 20px;
+}
+#copyright{
+    width: 440px;
+    color: whitesmoke;
+    padding-top: 20px;
+}
+.div1 header ul li  input{
+    border: none;
+   background: none;
+   color: white;
+   font-family: 'Lobster', cursive,'Merriweather', serif,'Neonderthaw', cursive,'Rubik Beastly', cursive,'Supermercado One', cursive;
+   cursor: pointer;
+   font-size: 20px;
+
+}
+
+    </style>
+
+<script>
+    function respon(){
+      
+      var user = document.getElementById('sa').value;
+      var pass = document.getElementById("ssa").value;
+      
+     
+      if(user == "aziim" && pass == "user"){
+           window.location.href = "brands.html";
+         
+          return true;
+      }else{
+        alert("'Wrong Password Please Try Again'").innerHTML = alert.style.color = "red";
+       
+
+      }
+     
+  }
+  var myWindow;
+        var windowProps = "width=300,height=300, top=200 , left=1200, toolbar=yes,  scrollable=yes, resizeable= no";
+
+        function openWindow(){
+            myWindow = window.open("contactus.html", "my new Window", windowProps);///open url file in new window
+        }
+        function openWindow1(){
+            myWindow = window.open("about.html", "my new Window", windowProps);///open url file in new window
+        }
+        function openWindow2(){
+            myWindow = window.open("blogs.html", "my new Window", windowProps);///open url file in new window
+        }
+
+        function closeWindow(){
+            myWindow.close();//close the newky opened window tab
+        }
+</script>
+
+
+</head>
+<body>
+   
+
+   <div class="div1">
+    <header>
+        <nav>
+            <ul>
+                <li><input type="button" value="Home" ></li>
+
+                <li><input type="button" value="About" onclick="openWindow1()"></li>
+
+                <li><input type="button" value="Blogs" onclick="openWindow2()"></li>
+
+                <li><input type="button" value="Contact Us" onclick="openWindow()"></li>
+            </ul>
+        </nav>
+        <img src="assets/redcode/images.jpg" >
+       
+       
+       
+    </header>
+    
+
+    <div class="login-div"><h1>Login Page</h1>
+       
+        <div class="fields">
+        <div class="username">
+            <input type="username" id="sa" class="user-input" placeholder="username" required/>
+        </div>
+        <div class="password">
+            <input type="password" id="ssa" class="pass-input" placeholder="password" required/>
+        </div> </div>
+       <button class="signin-button" onclick="respon()">Login</button>
+       <a href="example2.html"></a>
+    </div>
+   
+
+<div class="div2">
+    <h2>Give Your Outfit <br> A New Look</h2> <br><br>
+    <p>“If you genuinely want something, don’t wait for it <br> teach yourself to be impatient”</p> <br><br> <br><br>
+    <a href="" class="btn">Explore Now &#8594;</a>
+    <img src="assets/redcode/football_player_PNG121.png"  alt="">
+</div>
+</div>
+
+        <!-- SECTION SECOND -->
+
+        <section class="sec1">
+            <div class="div3">
+                <h1>_On Trending_</h1>
+            </div>
+            <div class="div4">
+                <span class="span1">
+                    <img src="assets/redcode/men1.jpg">
+                    <h2>Men Suits
+                     <i class="fa fa-star" ></i>
+                     <i class="fa fa-star" ></i>
+                     <i class="fa fa-star" ></i>
+                     <i class="fa fa-star" ></i>
+                     <i class="fa fa-star-o"></i>
+                    </h2> <br>
+                    <p>Price _ 6778.56</p>
+                </span>
+     
+                <span class="span1">
+                 <img src="assets/redcode/men2.jpg" alt="">
+                 <h2>Men Suits
+                     <i class="fa fa-star" ></i>
+                     <i class="fa fa-star" ></i>
+                     <i class="fa fa-star" ></i>
+                     <i class="fa fa-star" ></i>
+                     <i class="fa fa-star-o"></i>
+                    </h2> <br>
+                 <p>Price _ 6778.56</p>
+     
+                </span>
+     
+                <span class="span1">
+                 <img src="assets/redcode/men3.jpg" alt="">
+                 <h2>Men Suits
+                     <i class="fa fa-star" ></i>
+                     <i class="fa fa-star" ></i>
+                     <i class="fa fa-star" ></i>
+                     <i class="fa fa-star" ></i>
+                     <i class="fa fa-star-o"></i>
+                    </h2> <br>
+                 <p>Price _ 6778.56</p>
+     
+                </span>
+     
+                <span class="span1">
+                 <img src="assets/redcode/men2.jpg" alt="">
+                 <h2>Men Suits
+                     <i class="fa fa-star" ></i>
+                     <i class="fa fa-star" ></i>
+                     <i class="fa fa-star" ></i>
+                     <i class="fa fa-star" ></i>
+                     <i class="fa fa-star-o"></i>
+                    </h2> <br>
+                 <p>Price _  6778.56</p>
+     
+                </span>
+            </div>
+
+           
+            </div>
+          
+        </section>
+
+        <footer>
+            <div id="logo">
+                <h1>Download App</h1>
+                <p>Get It On</p>
+                <img src="assets/logo/2.png">
+            </div>
+            <div id="design">
+                <h1>&#169; No copyright Contents</h1>
+            </div>
+            <div id="copyright">
+                <h1>	&#174; &#8482; Designed by Aziim Bhatti</h1>
+            </div>
+        </footer>
+
+</body>
+</html>
